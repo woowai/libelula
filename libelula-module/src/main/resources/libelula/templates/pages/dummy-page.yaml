@@ -1,0 +1,11 @@
+templateScript: /libelula/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+title: Dummy page
+dialog: libelula:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: libelula:components/dummy-component
